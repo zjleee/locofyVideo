@@ -1,0 +1,493 @@
+.frameChild {
+  height: 120px;
+  width: 393px;
+  position: relative;
+  background-color: var(--color-lightsteelblue-100);
+  box-shadow: 0 4.1px 17.26px rgba(0, 0, 0, 0.25);
+  display: none;
+  max-width: 100%;
+}
+.ellinesIcon,
+.icon {
+  position: relative;
+  z-index: 1;
+}
+.icon {
+  height: 47px;
+  width: 63px;
+  object-fit: contain;
+}
+.ellinesIcon {
+  width: 34px;
+  height: 34px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.ellinesWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.frameWrapper,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  flex: 1;
+  background-color: var(--color-lightsteelblue-100);
+  box-shadow: 0 4.1px 17.26px rgba(0, 0, 0, 0.25);
+  justify-content: space-between;
+  padding: var(--padding-17xl) var(--padding-39xl) var(--padding-18xl)
+    var(--padding-16xl);
+  gap: var(--gap-xl);
+}
+.frameWrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-mini-3);
+}
+.frameItem {
+  height: 64.3px;
+  width: 104.5px;
+  position: absolute;
+  margin: 0 !important;
+  top: -50.8px;
+  right: -42.17px;
+  background: linear-gradient(120.54deg, #dde7dd, #fff 33.85%);
+  box-shadow: -0.3px 0.2px 3.13px -0.33px rgba(0, 0, 0, 0.25);
+  transform: rotate(13.7deg);
+  transform-origin: 0 0;
+  z-index: 5;
+}
+.executives {
+  position: relative;
+  display: inline-block;
+  text-shadow: 0 1.1px 1.14px rgba(0, 0, 0, 0.25);
+  min-width: 43px;
+  z-index: 7;
+}
+.frameDiv,
+.rectangleGroup {
+  display: flex;
+  align-items: flex-start;
+}
+.rectangleGroup {
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+}
+.frameDiv {
+  width: 112.8px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: var(--padding-31xl-8) var(--padding-11xl-6) var(--padding-xl-5);
+  box-sizing: border-box;
+}
+.frameInner {
+  height: calc(100% - 23.9px);
+  width: calc(100% - 12.7px);
+  position: absolute;
+  margin: 0 !important;
+  top: -0.01px;
+  right: -3.22px;
+  bottom: 23.91px;
+  left: 15.92px;
+  background: linear-gradient(248.27deg, #dce6dd, #fff 36.94%);
+  box-shadow: -0.3px 0.2px 3.13px -0.33px rgba(0, 0, 0, 0.25);
+  transform: rotate(14.3deg);
+  transform-origin: 0 0;
+  z-index: 1;
+}
+.recruiters {
+  position: relative;
+  display: inline-block;
+  text-shadow: 0 1.1px 1.14px rgba(0, 0, 0, 0.25);
+  min-width: 42px;
+  z-index: 2;
+}
+.frameChild1,
+.frameChild2,
+.rectangleDiv {
+  position: absolute;
+  top: 56.39px;
+  left: 289.71px;
+  background-color: var(--color-gray-600);
+  box-shadow: -0.3px 0.2px 3.15px -0.33px rgba(0, 0, 0, 0.25);
+  width: 105px;
+  height: 62.2px;
+  transform: rotate(7deg);
+  transform-origin: 0 0;
+}
+.frameChild1,
+.frameChild2 {
+  top: 42.33px;
+  left: 95.4px;
+  box-shadow: -0.6px 0.3px 5.42px -0.57px rgba(0, 0, 0, 0.25);
+  width: 182.4px;
+  height: 103px;
+  transform: rotate(-12.1deg);
+  z-index: 2;
+}
+.frameChild2 {
+  top: 58.5px;
+  left: 5.08px;
+  box-shadow: -0.3px 0.2px 3.15px -0.33px rgba(0, 0, 0, 0.25);
+  width: 105px;
+  height: 62.2px;
+  transform: rotate(6.4deg);
+  z-index: 4;
+}
+.businessChallengeToAchieve {
+  position: absolute;
+  top: 32px;
+  left: -4px;
+  width: 112.5px;
+  height: 75px;
+  object-fit: contain;
+  z-index: 6;
+}
+.frameChild3 {
+  height: calc(100% - 15.5px);
+  width: calc(100% - 9.1px);
+  position: absolute;
+  margin: 0 !important;
+  top: 15.86px;
+  right: 9.1px;
+  bottom: -0.36px;
+  left: 0;
+  background: linear-gradient(180deg, #dae4db, #fff 35.42%);
+  box-shadow: -0.6px 0.3px 5.65px -0.59px rgba(0, 0, 0, 0.25);
+  transform: rotate(-4.8deg);
+  transform-origin: 0 0;
+  z-index: 3;
+}
+.blankLine {
+  margin: 0;
+  font-size: var(--font-size-2xs-4);
+}
+.executivesAndRecruiters {
+  margin: 0;
+}
+.weConnectSuccess {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.executivesAndRecruitersContainer {
+  height: 57px;
+  position: relative;
+  display: inline-block;
+  text-shadow: 0 1.2px 1.22px rgba(0, 0, 0, 0.25);
+  z-index: 4;
+}
+.rectangleParent2 {
+  margin: 0 !important;
+  position: absolute;
+  right: -82.5px;
+  bottom: -69.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) var(--padding-8xl-4) var(--padding-15xl-4)
+    var(--padding-9xl-1);
+}
+.productiveMasterProductivit {
+  height: 69.1px;
+  width: 46px;
+  position: relative;
+  object-fit: cover;
+  z-index: 5;
+}
+.frameParent1 {
+  position: absolute;
+  top: 0;
+  left: 166.8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ri1Icon {
+  position: absolute;
+  top: 44px;
+  left: 297px;
+  width: 83.2px;
+  height: 65.6px;
+  object-fit: contain;
+  z-index: 3;
+}
+.rectangleParent1 {
+  height: 143px;
+  width: 394px;
+  position: absolute;
+  margin: 0 !important;
+  top: -47.9px;
+  left: -280.2px;
+  font-size: var(--font-size-xl-9);
+}
+.rectangleContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-28xl) var(--padding-18xl) var(--padding-6xl-2)
+    var(--padding-18xl-9);
+  position: relative;
+}
+.frameWrapper1 {
+  width: 117.2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs-2);
+  box-sizing: border-box;
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.welcomeTo {
+  position: relative;
+  display: inline-block;
+  text-shadow: 0 2.7px 2.7px rgba(0, 0, 0, 0.25);
+  min-width: 91px;
+}
+.welcomeToWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-29xl) 0 var(--padding-27xl);
+}
+.background3Icon {
+  align-self: stretch;
+  height: 44.8px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.frameParent2 {
+  width: 185.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs-6);
+}
+.frameGroup,
+.frameWrapper2 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameWrapper2 {
+  width: 379.3px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-base-2);
+  color: var(--color-steelblue-200);
+  font-family: var(--font-inria-serif);
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-13xl-7);
+}
+.saveYourTeam {
+  align-self: stretch;
+  position: relative;
+  line-height: 125.9%;
+  white-space: pre-wrap;
+}
+.span {
+  font-size: var(--font-size-base-5);
+}
+.gatherCanSaveContainer {
+  height: 54px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  white-space: pre-wrap;
+}
+.gatherCanSaveYourTeamHourWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-base);
+  font-size: var(--font-size-sm);
+}
+.frameWrapper3,
+.gatherCanSaveYourTeamHourWrapper,
+.saveYourTeamAMinimumOf20Parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.saveYourTeamAMinimumOf20Parent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-mid);
+}
+.frameWrapper3 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-28xl) var(--padding-xl-4) var(--padding-25xl);
+  text-align: center;
+  font-size: var(--font-size-3xl-6);
+  font-family: var(--font-inria-serif);
+}
+.entrepreneurAndStartupProje {
+  height: 90px;
+  width: 145.2px;
+  right: -81.7px;
+  bottom: -2.3px;
+  object-fit: contain;
+}
+.entrepreneurAndStartupProje,
+.frameChild4,
+.rectangleIcon {
+  position: absolute;
+  margin: 0 !important;
+}
+.frameChild4 {
+  height: calc(100% - 22.2px);
+  width: calc(100% - 6.9px);
+  top: 99.19px;
+  right: -286.4px;
+  bottom: -76.99px;
+  left: 293.3px;
+  background: linear-gradient(120.54deg, #d5e5f7, #fff 33.85%);
+  box-shadow: -0.6px 0.3px 5.87px -0.62px rgba(0, 0, 0, 0.25);
+  transform: rotate(175.5deg);
+  transform-origin: 0 0;
+  z-index: 1;
+}
+.rectangleIcon {
+  height: 77.7px;
+  width: 149.5px;
+  bottom: -33px;
+  left: 39px;
+  border-radius: 12.86px;
+  object-fit: contain;
+  z-index: 2;
+}
+.combiningYourJob,
+.forEarlyAnd,
+.fullControlFor {
+  margin: 0;
+}
+.fullControlForContainer {
+  position: relative;
+  z-index: 3;
+}
+.span1 {
+  white-space: pre-wrap;
+}
+.span1,
+.span2 {
+  font-size: var(--font-size-xl-8);
+}
+.executives1 {
+  margin: 0;
+}
+.tryNowAlways {
+  margin: 0;
+  font-size: var(--font-size-lg-7);
+  white-space: pre-wrap;
+}
+.executivesTryNowContainer {
+  position: absolute;
+  margin: 0 !important;
+  bottom: -4.81px;
+  left: 47.4px;
+  color: var(--color-white);
+  text-shadow: 0 2.1px 2.08px rgba(0, 0, 0, 0.25);
+  transform: rotate(12.1deg);
+  transform-origin: 0 0;
+  z-index: 3;
+  font-size: var(--font-size-5xl-9);
+}
+.entrepreneurAndStartupProjeParent,
+.frameParent,
+.frameWrapper4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.entrepreneurAndStartupProjeParent {
+  padding: var(--padding-8xl) var(--padding-10xl) var(--padding-18xl-7);
+  position: relative;
+}
+.frameParent,
+.frameWrapper4 {
+  padding: 0 var(--padding-12xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-lg-7);
+}
+.frameParent {
+  width: 393px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 0 0 var(--padding-28xl-3);
+  gap: var(--gap-31xl-6);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-base-7);
+  color: var(--color-darkslateblue-100);
+  font-family: var(--font-jomhuria);
+}
+@media screen and (max-width: 900px) {
+  .frameParent {
+    padding-bottom: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .rectangleParent {
+    flex-wrap: wrap;
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .frameContainer {
+    flex-wrap: wrap;
+  }
+  .frameGroup {
+    gap: var(--gap-base);
+  }
+  .saveYourTeam {
+    font-size: var(--font-size-lg);
+    line-height: 23px;
+  }
+  .frameWrapper3 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .executivesTryNowContainer {
+    font-size: var(--font-size-base);
+  }
+  .frameParent {
+    gap: var(--gap-6xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
